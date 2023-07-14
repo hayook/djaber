@@ -1,0 +1,54 @@
+section.about {
+    padding: 50px;
+}
+
+section.about .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-inline: auto;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+section.about .about-content h1 {
+    font-size: 3.3rem;
+}
+
+@media (max-width: 767px) {
+
+    section.about .about-content h1,
+    section.about .about-content p {
+        text-align: center;
+    }
+
+}
+
+section.about .about-content .navigate {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+section.about .about-content .navigate a {
+    text-decoration: none;
+    padding: .5rem .8rem;
+    border: 1px solid skyblue;
+}
+
+section.about .about-content .sm-icons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: .5rem;
+    gap: 1rem;
+}
+
+section.about .about-content .sm-icons a {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    text-decoration: none;
+}

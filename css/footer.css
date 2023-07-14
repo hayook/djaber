@@ -1,0 +1,39 @@
+footer .container {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid skyblue;
+    gap: 1rem;
+}
+
+@media (max-width: 767px) {
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.sm-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    ;
+}
+
+.sm-icons .icon-wrapper {
+    background: black;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.sm-icons .icon-wrapper svg {
+    height: 100%;
+    width: 100%;
+    fill: skyblue;
+}
