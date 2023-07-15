@@ -11,7 +11,7 @@ h1.section-heading {
 
 @media (max-width: 768px) {
     h1.section-heading {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
 
