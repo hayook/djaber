@@ -1,7 +1,6 @@
 section.hero {
     height: fit-content;
-    background: #87ceeb;
-    position: relative;
+    background: var(--primary-clr);
     color: white !important;
 }
 
@@ -9,16 +8,6 @@ section.hero {
     to {
         min-height: 50vh;
     }
-}
-
-section.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(0, 0, 0, .5);
 }
 
 section.hero .container {

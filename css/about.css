@@ -1,7 +1,3 @@
-section.about {
-    padding: 50px;
-}
-
 section.about .about-content {
     display: flex;
     flex-direction: column;
@@ -13,19 +9,6 @@ section.about .about-content {
     text-align: center;
 }
 
-section.about .about-content h1 {
-    font-size: 3.3rem;
-}
-
-@media (max-width: 767px) {
-
-    section.about .about-content h1,
-    section.about .about-content p {
-        text-align: center;
-    }
-
-}
-
 section.about .about-content .navigate {
     display: flex;
     align-items: center;
@@ -35,7 +18,7 @@ section.about .about-content .navigate {
 section.about .about-content .navigate a {
     text-decoration: none;
     padding: .5rem .8rem;
-    border: 1px solid skyblue;
+    border: 1px solid var(--primary-clr);
 }
 
 section.about .about-content .sm-icons {

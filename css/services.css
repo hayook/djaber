@@ -1,34 +1,12 @@
 section.services {
-    padding: 50px 0;
     color: white;
-    background: skyblue;
-    position: relative;
-}
-
-section.services::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(0, 0, 0, .5);
-}
-
-section.services .container {
-    position: relative;
-}
-
-section.services .container>h1 {
-    font-size: 3.3rem;
-    text-align: center;
-    margin-bottom: 1.2rem;
+    background: var(--primary-clr);
 }
 
 section.services .services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
+    gap: .3rem;
 }
 
 section.services .services-list .service {
@@ -36,8 +14,8 @@ section.services .services-list .service {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    border: 1px solid skyblue;
-    border-radius: 15px;
+    border: 1px solid var(--secondary-clr);
+    /* border-radius: 15px; */
     padding: 1rem;
     text-align: center;
 }
